@@ -1,10 +1,6 @@
-# Deployment-page
-
-Here is the file structure of the project:
-
 .
 ├── JS
-│   └── app.js
+│   └── app.js
 ├── README.md
 ├── dynamic.html
 ├── file_structure.txt
@@ -14,8 +10,4 @@ Here is the file structure of the project:
 ├── styles.css
 └── vite.config.js
 
-
-## Running Vite
-- npm run dev
-
-This start the host with vite
+3 directories, 8 files
