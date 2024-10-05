@@ -1,13 +1,17 @@
 .
+├── CSS
+│   └── styles.css
 ├── JS
-│   └── app.js
+│   ├── app.js
+│   ├── build.js
+│   ├── navigation.js
+│   └── secret.js
 ├── README.md
 ├── dynamic.html
 ├── file_structure.txt
 ├── index.html
 ├── package-lock.json
 ├── package.json
-├── styles.css
 └── vite.config.js
 
-3 directories, 8 files
+3 directories, 12 files

@@ -1,13 +1,12 @@
 import { defineConfig } from "vite";
-import path from "path";
 
 export default defineConfig({
-  root: "./",
+  root: "./", // Serve files from the root directory
   build: {
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, "index.html"),
-        dynamic: path.resolve(__dirname, "dynamic.html"),
+        main: "index.html",
+        dynamic: "dynamic.html", // Include your dynamic.html as an entry point
       },
     },
   },
